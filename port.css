@@ -285,6 +285,10 @@
 }
 
 /* //////////////////// */
+
+.contrib-column .contrib-number{
+    color: white;
+}
 .react-activity-calendar{
     height: auto;
     border: 1px solid #161627;
