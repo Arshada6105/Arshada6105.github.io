@@ -192,7 +192,7 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
      proxy (username) {
        return fetch(`https://your-proxy.com/github?user=Arshada6105`)
      }
-  })
+  }).then(r => r.text())
   
 </script>
         </div>
