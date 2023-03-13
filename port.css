@@ -62,6 +62,7 @@
 }
 
 
+
 /* Home Section */
 
 #home{
@@ -124,6 +125,18 @@
    
    
 }
+
+#nav-menu #resume-button-1 button{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    background-color:#5f0443;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 2px;
+}
+
 #home>div>div:nth-child(4) button{
     height: 100%;
     width: 100%;
@@ -302,10 +315,13 @@
 .react-activity-calendar>div:nth-child(2){
     height: 60%;
     width: 70%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     margin-top: 3%;
 }
+
+
+
 
 #projects{
     height: 850px;
