@@ -24,4 +24,10 @@ document.querySelector(".contact").addEventListener("click",()=>{
    
 })
 
-console.log("here")
+document.querySelector("#resume-button-1").addEventListener("click",()=>{
+    window.location.href = "https://drive.google.com/u/0/uc?id=1DjQLqOVYTK_GJf1aAnbLDK_U2T63aqt_&export=download" ;
+})
+
+document.querySelector("#resume-button-2").addEventListener("click",()=>{
+   window.open("https://drive.google.com/u/0/uc?id=1DjQLqOVYTK_GJf1aAnbLDK_U2T63aqt_&export=download") ;
+})
