@@ -23,3 +23,5 @@ document.querySelector(".contact").addEventListener("click",()=>{
     document.querySelector("#contact").scrollIntoView();
    
 })
+
+console.log("here")
