@@ -64,7 +64,7 @@ document.querySelector(".mailDep").addEventListener("click",()=>{
  
 
  let menuButton=document.getElementById("menu");
- console.log(menuButton)
+//  console.log(menuButton)
  let menuBar=document.querySelector("#nav-menu>div:nth-child(2)");
 
  mediaQuery.addEventListener('change',(event) => {
@@ -83,7 +83,7 @@ document.querySelector(".mailDep").addEventListener("click",()=>{
         menuButton.classList.add("fa-xmark");
         menuBar.style="display:flex";
       } else {
-        menuBar.style="display:none";
+        // menuBar.style="display:none";
         menuButton.classList.add("fa-bars");
         menuButton.classList.remove("fa-xmark");
       }
