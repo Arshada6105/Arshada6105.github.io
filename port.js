@@ -19,6 +19,16 @@ document.querySelector(".projects").addEventListener("click",()=>{
     document.querySelector("#projects").scrollIntoView();
    
 })
+
+document.querySelector(".res-projects-class").addEventListener("click",()=>{
+    document.querySelector("#res-projects").scrollIntoView();
+    console.log("clicked")
+   
+})
+
+
+
+
 document.querySelector(".contact").addEventListener("click",()=>{
     document.querySelector("#contact").scrollIntoView();
    
@@ -37,9 +47,22 @@ document.querySelector("#resume-button-2").addEventListener("click",()=>{
 document.querySelector(".travelDep").addEventListener("click",()=>{
    window.open("https://melodic-rugelach-d8626c.netlify.app/fw22_0277home.html","_blank") ;
 })
+
+
 document.querySelector(".travelGit").addEventListener("click",()=>{
     window.open("https://github.com/Arshada6105/Travelocity-clone","_blank") ;
  })
+
+
+ document.querySelector(".travelGitRes").addEventListener("click",()=>{
+    window.open("https://github.com/Arshada6105/Travelocity-clone","_blank") ;
+ })
+
+ document.querySelector(".travelDepRes").addEventListener("click",()=>{
+    window.open("https://melodic-rugelach-d8626c.netlify.app/fw22_0277home.html","_blank") ;
+ })
+
+
 
  document.querySelector(".mailGit").addEventListener("click",()=>{
     window.open("https://github.com/Arshada6105/MailTrap-clone","_blank") ;
@@ -69,7 +92,9 @@ document.querySelector(".mailDep").addEventListener("click",()=>{
 
  mediaQuery.addEventListener('change',(event) => {
     if (event.matches) {
-        menuBar.style="display:flex";
+        // menuBar.style="display:flex";
+
+      
      }
   });
  let click_count=0;
