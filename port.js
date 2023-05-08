@@ -27,11 +27,11 @@ document.querySelector(".res-projects-class").addEventListener("click",()=>{
 })
 
 document.querySelector("#prtf").addEventListener("click" , ()=>{
-    window.open("https://www.linkedin.com/in/justarshadali/");
+    window.open("https://github.com/Arshada6105","_blank") ;
 })
 
 document.querySelector("#lkdn").addEventListener("click" , ()=>{
-    window.open("https://www.linkedin.com/in/justarshadali/");
+    window.open("https://www.linkedin.com/in/justarshadali/","_blank");
 })
 
 
