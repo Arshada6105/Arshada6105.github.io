@@ -26,6 +26,13 @@ document.querySelector(".res-projects-class").addEventListener("click",()=>{
    
 })
 
+document.querySelector("#prtf").addEventListener("click" , ()=>{
+    window.open("https://www.linkedin.com/in/justarshadali/");
+})
+
+document.querySelector("#lkdn").addEventListener("click" , ()=>{
+    window.open("https://www.linkedin.com/in/justarshadali/");
+})
 
 
 
@@ -78,6 +85,7 @@ document.querySelector(".mailDep").addEventListener("click",()=>{
  })
 
  document.querySelector(".portfolio").addEventListener("click",()=>{
+    console.log("clicked")
     window.open("https://github.com/Arshada6105","_blank") ;
  })
 

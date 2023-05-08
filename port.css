@@ -1021,21 +1021,6 @@
 
 
 
-    #home>div>div:nth-child(1){
-        margin-top: -2%;
-        width: 50%;
-        height: 38%;
-        border-radius: 50%;
-        /* padding-top: 15px; */
-    }
-    #home>div>div:nth-child(1)>img{
-       height: 100%;
-        width: 100%;
-        border-radius: 50%;
-        object-fit:cover;
-    }
-
-
     #nav-menu>div:nth-child(2)>div{
         width: 30%;
         border: 1px solid white;
