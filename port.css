@@ -402,6 +402,7 @@
     position: relative;
     top: 16%;
     /* border: 1px solid yellow; */
+    /* padding-bottom: 2px; */
     /* background-color: blue; */
     z-index: 1;
     text-align: center;
@@ -1151,8 +1152,11 @@
         border: 1px solid #161627;
         background-color: #161627;
         color:white;
+       
         /* padding-top: 25%; */
     }
+
+   
 
 
     #menu{

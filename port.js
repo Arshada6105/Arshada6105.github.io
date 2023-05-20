@@ -76,9 +76,56 @@ document.querySelector(".travelGit").addEventListener("click",()=>{
  })
 
 
+ document.querySelector(".mailGitRes").addEventListener("click",()=>{
+    window.open("https://github.com/Arshada6105/MailTrap-clone","_blank") ;
+ })
+
+
 document.querySelector(".mailDep").addEventListener("click",()=>{
     window.open("https://delightful-klepon-e7b726.netlify.app/","_blank") ;
  })
+
+ document.querySelector(".mailDepRes").addEventListener("click",()=>{
+    window.open("https://delightful-klepon-e7b726.netlify.app/","_blank") ;
+ })
+
+
+ document.querySelector(".edGit").addEventListener("click",()=>{
+    window.open("https://github.com/Arshada6105/Automated-Student-Registration-System" , "_blank") ;
+ })
+
+ document.querySelector(".edPre").addEventListener("click",()=>{
+    window.open("https://drive.google.com/file/d/16gNLeuTegdwbL7sDrGXuBYnJXn75Z66e/view" , "_blank") ;
+ })
+
+
+ document.querySelector(".edGitRes").addEventListener("click",()=>{
+    window.open("https://github.com/Arshada6105/Automated-Student-Registration-System" , "_blank") ;
+ })
+
+ document.querySelector(".edPreRes").addEventListener("click",()=>{
+    window.open("https://drive.google.com/file/d/16gNLeuTegdwbL7sDrGXuBYnJXn75Z66e/view" , "_blank") ;
+ })
+
+
+ document.querySelector(".makeGit").addEventListener("click",()=>{
+    window.open("https://github.com/Arshada6105/Online-Travel-Management-System-" , "_blank") ;
+ })
+
+ document.querySelector(".makePre").addEventListener("click",()=>{
+    window.open("https://drive.google.com/file/d/1UaMKmZ8nzsQMvz-rS7xEftJGK_U42cTA/view?usp=sharing" , "_blank") ;
+ })
+
+ document.querySelector(".makeGitRes").addEventListener("click",()=>{
+    window.open("https://github.com/Arshada6105/Online-Travel-Management-System-" , "_blank") ;
+ })
+
+ document.querySelector(".makePreRes").addEventListener("click",()=>{
+    window.open("https://drive.google.com/file/d/1UaMKmZ8nzsQMvz-rS7xEftJGK_U42cTA/view?usp=sharing" , "_blank") ;
+ })
+
+
+
 
  document.querySelector(".linkedIn").addEventListener("click",()=>{
     window.open("https://www.linkedin.com/in/justarshadali/","_blank") ;
